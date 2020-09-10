@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.blue_head{
+    background-color: #262C7C;
+    height: 802px;
+    width: 100%;
+    color: white;
+}
+
+.blue_head .blue_80{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.blue_80 .navigate{
+    border-bottom: 0.01px solid #9b9898;
+    width: 100%;
+    height: 7%;
+}
+
+.navigate .links{
+    text-align: right;
+    padding-top: 10px;
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+
+.links a{
+    color: white;
+    margin: 0 20px;
+}
+
+.blue_80 .text_logo{
+    padding-top: 50px;
+    width: 100%;
+    height: 80%;
+}
+
+.text_logo .text{
+    padding-top: 120px;
+    height: 100%;
+    float: left;
+    width: 48%;
+}
+
+.text h2{
+    text-transform: uppercase;
+}
+
+.text p{
+    padding-right: 20%;
+}
+
+.text .protect_red{
+    background-color: #e3486e;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+
+.text .doc_border{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.text_logo .logo{
+    height: 100%;
+    float: right;
+}
+
+.grey_part{
+    background-color: #F2F3F7;
+    height: 915px;
+    width: 100%;
+}
+
+.grey_part .grey_80{
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.grey_80 .status{
+    width: 100%;
+    top: -85.5px;
+    height: 157px;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px 6% 10px 5%;
+    background-color: white;
+    box-shadow: 0px 2px 3px 1px #c7c7c7;
+}
+
+.status .status_break{
+    width: 24.5%;
+    margin: auto;
+    display: inline-block;
+}
+
+.status_break img{
+    padding-bottom: 30px;
+    object-fit: fill;
+    height: 100%;
+    width: 28%;
+}
+
+.status_break .status_side{
+    display: inline-block;
+    padding-top: 30px;
+    height: 100%;
+    width: 68%;
+}
+
+.status_side select{
+    width: 50%;
+    border: none;
+    background-color: white;
+}
+
+.grey_80 .affected{
+    height: 668px;
+    width: 100%;   
+}
+
+.affected .world_map{
+    width: 69%;
+    height: 100%;
+    padding: 1%;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0px 2px 3px 2px #c7c7c7;
+}
+
+.world_map .map_text{
+    width: 100%;
+    height: 5%;
+    margin-top: 20px;
+}
+
+.map_text .top_left{
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+}
+
+.map_text .top_right{
+    display: inline-block;
+    text-align: right;
+    height: 100%;
+    width: 38%;
+}
+
+.top_right .danger{
+    color: #e3486e;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.top_right .no_danger{
+    color: #55ca7c;
+    margin-left: 10px;
+}
+
+.world_map .map_img{
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+}
+
+.map_img svg{
+    width: 100%;
+    height: 100%;
+    fill-rule: evenodd;
+}
+
+path{
+    fill:#f7f8f9;
+    transition: fill ease-in-out;
+}
+
+path:hover{
+    fill: #e3486e;
+    cursor: pointer;
+}
+
+.affected .country_li{
+    width: 29%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 3px 2px #c7c7c7;
+}
+
+.country_li .locate_filter{
+    width: 90%;
+    height: 7%;
+    padding: 5px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.country_li .global{
+    width: 91%;
+    height: 7%;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 2px solid #7c7979;
+}
+
+.global > p{
+    width: 48%;
+    height: 100%;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.global .global_left{
+    text-align: left;
+}
+
+.global .global_right{
+    text-align: right;
+}
+
+.country_li .full_hr{
+    width: 90%;
+    border: 0.01px solid #c7c7c7;
+    margin: 5px auto 5px auto;
+}
+
+.country_li .county{
+    width: 90%;
+    height: 7%;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: #c7c7c7;
+    border: 1px solid #c7c7c7;
+}
+
+.county > *{
+    display: inline-block;
+}
+
+.county .img_box{
+    width: 12%;
+    height: 100%;
+}
+
+.img_box img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.county p{
+    width: 85%;
+    height: 100%;
+    text-align: left;
+    padding-top: 12px;
+    /* background-color: aquamarine; */
+}
+
+.county p > span{
+    float: right;
+}
+
+
+
+
+.foot_section{
+    background-color: #262C7C;
+    height: 461px;
+    width: 100%;
+    color: white;
+}
+
+.foot_section .foot_h4{
+    display: inline-block;
+}
+
+.foot_section .foot_80{
+    width: 80%;
+    padding-top: 100px;
+}
+
+.foot_80 .col_right{
+    text-align: right;
+}
+
+.foot_80 i{
+    padding: 10px;
+    color: #e3486e;
+    border: 1px solid #F2F3F7;
+}
+
+.foot_section .foot_20{
+    width: 100%;
+    margin-top: 90px;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #F2F3F7;
+}
